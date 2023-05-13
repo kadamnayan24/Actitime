@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database Connected]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched]]>
+    </line>
+    <line>
+      <![CDATA[login Succesfully]]>
+    </line>
+    <line>
+      <![CDATA[The Above Process is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Database Disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-12T21:00:24 IST" name="Default suite" finished-at="2023-05-12T21:00:49 IST" duration-ms="25842">
+    <groups>
+    </groups>
+    <test started-at="2023-05-12T21:00:24 IST" name="Default test" finished-at="2023-05-12T21:00:49 IST" duration-ms="25842">
+      <class name="Com.Actitime.GenericLibrary.Baseclass">
+        <test-method is-config="true" signature="databaseConnection()[pri:0, instance:Com.Actitime.GenericLibrary.Baseclass@16ec5519]" started-at="2023-05-12T21:00:24 IST" name="databaseConnection" finished-at="2023-05-12T21:00:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database Connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseConnection -->
+        <test-method is-config="true" signature="lauchBrowser()[pri:0, instance:Com.Actitime.GenericLibrary.Baseclass@16ec5519]" started-at="2023-05-12T21:00:24 IST" name="lauchBrowser" finished-at="2023-05-12T21:00:37 IST" duration-ms="13163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Com.Actitime.GenericLibrary.Baseclass@16ec5519]" started-at="2023-05-12T21:00:37 IST" name="login" finished-at="2023-05-12T21:00:42 IST" duration-ms="5188" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login Succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="succesfull()[pri:0, instance:Com.Actitime.GenericLibrary.Baseclass@16ec5519]" started-at="2023-05-12T21:00:42 IST" name="succesfull" finished-at="2023-05-12T21:00:42 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Above Process is Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- succesfull -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Com.Actitime.GenericLibrary.Baseclass@16ec5519]" started-at="2023-05-12T21:00:42 IST" name="logout" finished-at="2023-05-12T21:00:49 IST" duration-ms="7295" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Com.Actitime.GenericLibrary.Baseclass@16ec5519]" started-at="2023-05-12T21:00:49 IST" name="closeBrowser" finished-at="2023-05-12T21:00:49 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="databaseDisconnected()[pri:0, instance:Com.Actitime.GenericLibrary.Baseclass@16ec5519]" started-at="2023-05-12T21:00:50 IST" name="databaseDisconnected" finished-at="2023-05-12T21:00:50 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database Disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseDisconnected -->
+      </class> <!-- Com.Actitime.GenericLibrary.Baseclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
